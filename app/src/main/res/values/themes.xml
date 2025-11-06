@@ -1,6 +1,15 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.BusinessCard" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_600</item>
+        <item name="colorPrimaryContainer">@color/primary_100</item>
+        <item name="colorOnPrimaryContainer">@color/primary_900</item>
+        <item name="colorPrimaryInverse">@color/primary_200</item>
+
+        <item name="colorSecondary">@color/secondary_600</item>
+        <item name="colorSecondaryContainer">@color/secondary_100</item>
+        <item name="colorOnSecondaryContainer">@color/secondary_900</item>
+        <item name="colorOnSecondary">@color/secondary_200</item>
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
